@@ -1,0 +1,25 @@
+.ChatHeader{
+    nav {
+        display: flex;
+        background-color: #fff;
+        width: 100%;
+        align-items: center;
+        padding: 5px 3vw;
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        gap: 5vw;
+        border-bottom: 1px solid #e7e7e7;
+    }
+    
+    .logo {
+        width: 160px;
+        margin-right: 45px;
+    }
+    
+    .nav-left,
+    .nav-right {
+        display: flex;
+        align-items: center;
+    }
+}

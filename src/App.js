@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React from 'react';
 import Chats from './pages/Chats/Chats';
 import Home from './pages/Home/Home';
-
+import Messages from './pages/Messages/Messages';
 function App() {
   return (
     <div className='App'>
@@ -11,6 +11,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Chats/>} />
           <Route path='home' element={<Home/>} />
+          <Route path='messages' element={<Messages/>} />
         </Routes>
       </Router>
     </div>
