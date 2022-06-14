@@ -6,7 +6,7 @@ function Header(){
         <div className="Header">
             <div className="Header__main">
             <div className="Header__main__left">Social</div>
-            <div className="Header__main__right"><img src={menu} alt="" /></div>
+            <div className="Header__main__right"><img src={menu} alt="img" /></div>
             </div>
         </div>
     )

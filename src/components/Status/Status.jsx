@@ -7,7 +7,7 @@ export function StatusAdd(){
     return(
         <div className="Status">
             <div className="Status__main add">
-                <img src={add} alt="" id="add"/>
+                <img src={add} alt="img" id="add"/>
             </div>
             <p>user</p>
         </div>
@@ -17,7 +17,7 @@ export function Status(){
     return(
         <div className="Status">
             <div className="Status__main">
-                <img src={profile} alt="" />
+                <img src={profile} alt="img" />
             </div>
             <p>user</p>
         </div>
@@ -28,7 +28,7 @@ export function Status2(){
     return(
         <div className="Status">
             <div className="Status__main">
-                <img src={profile2} alt="" />
+                <img src={profile2} alt="img" />
             </div>
             <p>user</p>
         </div>

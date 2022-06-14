@@ -12,7 +12,7 @@ function ChatHeader(){
         <div className="ChatHeader">
              <nav>
                 <div class="nav-left">
-                    <img src={arrow} alt="" onClick={handlePrev}/>
+                    <img src={arrow} alt="img" onClick={handlePrev}/>
                 </div>
                <div className="nav-right">
                <div className="nav-user-icon online">

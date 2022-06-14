@@ -11,7 +11,7 @@ function PostImg() {
             <div className="PostImg__upper">
                 <div className="PostImg__upper__top">
                     <div className="top-main">
-                        <img src={profile2} alt="" />
+                        <img src={profile2} alt="img" />
                         <div className="PostImg__upper__top__text">
                             <p>Mark Cuban</p>
                             <p>@BigMac</p>
@@ -25,13 +25,13 @@ function PostImg() {
             </div>
             <div className="PostImg__lower">
                 <div>
-                    <img src={like} alt="" />
-                    <img src={comment} alt="" />
-                    <img src={send} alt="" />
+                    <img src={like} alt="img" />
+                    <img src={comment} alt="img" />
+                    <img src={send} alt="img" />
 
                 </div>
                 <div>
-                    <img src={save} alt="" />
+                    <img src={save} alt="img" />
                 </div>
             </div>
         </div>
