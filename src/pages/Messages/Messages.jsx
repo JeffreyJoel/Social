@@ -2,7 +2,11 @@ import React from "react";
 import './messages.scss';
 import ChatFooter from "../../components/ChatFooter/ChatFooter";
 import ChatHeader from "../../components/ChatHeader/ChatHeader";
+// import {useNavigate} from "react-router";
 function Messages() {
+
+    
+
     return (
         <div className="Messages">
            <ChatHeader/>
