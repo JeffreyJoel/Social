@@ -1,7 +1,7 @@
 import React from "react";
 import './chatheader.scss'
 import profile from '../../props/images/profile-pic.png';
-import arrow from '../../props/icons/arrow-left-2.svg'
+import arrow from '../../props/icons/arrow-left-1.svg'
 function ChatHeader(){
     return(
         <div className="ChatHeader">
