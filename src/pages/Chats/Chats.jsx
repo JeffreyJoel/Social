@@ -3,7 +3,13 @@ import './chats.css'
 import profile from '../../props/images/profile-pic.png';
 import searchImg from '../../props/images/search.png';
 import Footer from "../../components/Footer/Footer";
+import { useNavigate } from "react-router";
 function Chats() {
+
+    const navigate = useNavigate()
+    const handleMsg = ()=>{
+        navigate("messages")
+    }
     return (
         <div class="container">
             <br />
@@ -42,7 +48,9 @@ function Chats() {
                     <h3>Messages</h3>
 
                     <div class="messages">
-                        <div class="message-box">
+                        <div class="message-box"
+                        onClick={handleMsg}
+                        >
                             <img src={profile} class="message-img" alt="img" />
                             <div class="message-text">
                                 <div class="message-text-top">
@@ -60,7 +68,7 @@ function Chats() {
 
                         </div>
 
-                        <div class="message-box">
+                        <div class="message-box" onClick={handleMsg}>
                             <img src={profile} class="message-img" alt="img" />
                             <div class="message-text">
                                 <div class="message-text-top">
@@ -75,7 +83,7 @@ function Chats() {
                             </div>
                         </div>
 
-                        <div class="message-box">
+                        <div class="message-box" onClick={handleMsg}>
                             <img src={profile} class="message-img" alt="img" />
                             <div class="message-text">
                                 <div class="message-text-top">
@@ -90,7 +98,7 @@ function Chats() {
                             </div>
                         </div>
 
-                        <div class="message-box">
+                        <div class="message-box" onClick={handleMsg}>
                             <img src={profile} class="message-img" alt="img" />
                             <div class="message-text">
                                 <div class="message-text-top">
